@@ -1,12 +1,12 @@
 <template>
   <b-navbar 
     type="dark"
-    class=""
+    class="py-4"
   >
     <b-container class="d-flex flex-column flex-md-row">
       
       <b-navbar-brand href="#" class="py-2">
-        <img src="~/assets/near-logo-light.png" alt="Near México">
+        <NearLogo/>
       </b-navbar-brand>
 
       <b-navbar-nav class="mx-auto d-none d-md-block">
@@ -68,12 +68,15 @@
 </template>
 
 <script>
-import TelegramIcon from '@/components/icons/TelegramIcon.vue';
-import WhatsAppIcon from '@/components/icons/WhatsAppIcon.vue';
+import TelegramIcon from '@/components/icons/TelegramIcon.vue'
+import WhatsAppIcon from '@/components/icons/WhatsAppIcon.vue'
+
+import NearLogo from '@/components/images/NearLogoImg.vue'
 export default {
   components: {
     TelegramIcon,
-    WhatsAppIcon
+    WhatsAppIcon,
+    NearLogo
   }
 }
 </script>
@@ -88,7 +91,7 @@ export default {
 }
 
 .nav-li a {
-  color: #FFFFFF;
+  color: var(--primary-color);
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -128,7 +131,7 @@ export default {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #FFFFFF;
+  background: var(--primary-color);
   height: 4px;
   width: 0;
 }

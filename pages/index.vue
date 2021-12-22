@@ -18,8 +18,8 @@ export default {}
 
 <style>
 body {
-  background-color: #242434;
-  color: #FFFFFF;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 16px;
 }
 

@@ -1,0 +1,9 @@
+.dark-mode {
+  --primary-color: #FFFFFF;
+  --secondary-color: #242434;
+}
+
+.light-mode {
+  --primary-color: #404055;
+  --secondary-color: #FFFFFF;
+}

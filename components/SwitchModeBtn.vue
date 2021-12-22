@@ -79,10 +79,10 @@ export default {
 }
 
 .background-tab.left {
-  border-radius: 5px 0 0 5px;
+  border-radius: 3px 0 0 3px;
 }
 
 .background-tab.right {
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 3px 3px 0;
 }
 </style>
