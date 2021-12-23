@@ -8,7 +8,7 @@
 
       <CommunityNear/>
 
-
+      <CommunityReasons/>
     </main>
     <footer>
       
@@ -18,12 +18,14 @@
 
 <script>
 import CommunityNear from '@/components/sections/CommunityNear.vue'
+import CommunityReasons from '@/components/sections/CommunityReasons.vue'
 import MainBanner from '@/components/sections/MainBanner.vue'
 import MainNav from '@/components/layouts/MainNav.vue'
 
 export default {
   components: {
     CommunityNear,
+    CommunityReasons,
     MainBanner,
     MainNav
   }
