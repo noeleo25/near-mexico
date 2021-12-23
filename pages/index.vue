@@ -5,6 +5,10 @@
     </header>
     <main>
       <MainBanner />
+
+      <CommunityNear/>
+
+
     </main>
     <footer>
       
@@ -13,10 +17,13 @@
 </template>
 
 <script>
-import MainNav from '@/components/layouts/MainNav.vue';
-import MainBanner from '@/components/sections/MainBanner.vue';
+import CommunityNear from '@/components/sections/CommunityNear.vue'
+import MainBanner from '@/components/sections/MainBanner.vue'
+import MainNav from '@/components/layouts/MainNav.vue'
+
 export default {
   components: {
+    CommunityNear,
     MainBanner,
     MainNav
   }
@@ -31,12 +38,19 @@ body {
 }
 
 section {
-  padding: 40px 0;
+  padding-top: 40px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 20px !important;
 }
 
 @media (min-width: 768px) { 
   section {
-    padding: 80px 0;
+    padding-top: 80px;
   }
 }
 </style>
