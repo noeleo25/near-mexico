@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="356" height="30" viewBox="0 0 356.031 30.78">
+    <defs>
+        <radialGradient id="a" cx=".5" cy=".5" r=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#29c44d"/>
+            <stop offset=".707" stop-color="#29c44d" stop-opacity=".051"/>
+            <stop offset="1" stop-color="#29c44d" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+    <g data-name="Grupo 18">
+        <path data-name="Línea 4" transform="translate(0 15.39)" style="fill:none;stroke:#29c44d" d="M0 0h340.5"/>
+        <g data-name="Componente 1 – 29" transform="translate(325.251)">
+            <circle data-name="Elipse 42" cx="15.39" cy="15.39" r="15.39" style="fill:url(#a)"/>
+            <circle data-name="Elipse 44" cx="7.695" cy="7.695" r="7.695" transform="translate(7.695 7.695)" style="fill:#b5ffc6;opacity:.67"/>
+            <circle data-name="Elipse 45" cx="2.565" cy="2.565" r="2.565" transform="translate(12.825 12.825)" style="fill:#29c44d"/>
+        </g>
+    </g>
+</svg>
