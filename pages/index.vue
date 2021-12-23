@@ -13,10 +13,12 @@
 </template>
 
 <script>
-import MainBanner from '@/components/MainBanner.vue';
+import MainNav from '@/components/layouts/MainNav.vue';
+import MainBanner from '@/components/sections/MainBanner.vue';
 export default {
   components: {
-    MainBanner
+    MainBanner,
+    MainNav
   }
 }
 </script>

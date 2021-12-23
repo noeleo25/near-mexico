@@ -72,11 +72,14 @@ import TelegramIcon from '@/components/icons/TelegramIcon.vue'
 import WhatsAppIcon from '@/components/icons/WhatsAppIcon.vue'
 
 import NearLogo from '@/components/images/NearLogoImg.vue'
+
+import SwitchModeBtn from '@/components/buttons/SwitchModeBtn.vue'
 export default {
   components: {
     TelegramIcon,
     WhatsAppIcon,
-    NearLogo
+    NearLogo,
+    SwitchModeBtn
   }
 }
 </script>
