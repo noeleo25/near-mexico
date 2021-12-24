@@ -36,17 +36,16 @@ export default {
     MainFooter,
     MainNav,
     News
+  },
+  head() {
+    return {
+      title: 'NEAR México'
+    }
   }
 }
 </script>
 
 <style>
-body {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  font-size: 16px;
-}
-
 section {
   padding-top: 40px;
 }

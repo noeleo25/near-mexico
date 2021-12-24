@@ -1,49 +1,23 @@
 <template>
   <b-nav id="social-media-buttons">
-    <b-nav-item class="social-media telegram">
+    <b-nav-item 
+      v-for="(sm, index) in socialMediaLinks"
+      :key="index"
+      :class="['social-media', sm.css]"
+      :href="sm.networkLink"
+      target="_blank"
+    >
       <base-icon
         class="mr-2"
-        icon-name="telegram-icon"
+        :icon-name="sm.icon + '-icon'"
         height="24"
         width="24"
       >
-        <TelegramIcon/>
+        <component :is="sm.icon" />
       </base-icon>
-      Telegram
+      {{ sm.network }}
     </b-nav-item>
-    <b-nav-item class="social-media whatsapp">
-      <base-icon
-        class="mr-2"
-        icon-name="whatsapp-icon"
-        height="24"
-        width="24"
-      >
-        <WhatsAppIcon/>
-      </base-icon>
-      WhatsApp
-    </b-nav-item>
-    <b-nav-item class="social-media twitter">
-      <base-icon
-        class="mr-2"
-        icon-name="twitter-icon"
-        height="24"
-        width="24"
-      >
-        <TwitterIcon/>
-      </base-icon>
-      Twitter
-    </b-nav-item>
-    <b-nav-item class="social-media facebook">
-      <base-icon
-        class="mr-2"
-        icon-name="facebook-icon"
-        height="24"
-        width="24"
-      >
-        <FacebookIcon/>
-      </base-icon>
-      Facebook
-    </b-nav-item>
+    
   </b-nav>
 </template>
 
@@ -52,14 +26,59 @@ import FacebookIcon from '@/components/icons/FacebookIcon.vue'
 import TelegramIcon from '@/components/icons/TelegramIcon.vue'
 import TwitterIcon from '@/components/icons/TwitterIcon.vue'
 import WhatsAppIcon from '@/components/icons/WhatsAppIcon.vue'
+import GithubIcon from '@/components/icons/GithubIcon.vue'
+
 
 export default {
   components: {
     FacebookIcon,
     TelegramIcon,
     TwitterIcon,
-    WhatsAppIcon
-  }
+    WhatsAppIcon,
+    GithubIcon
+  },
+  data() {
+    return {
+      socialMediaLinks: [
+        {
+          network: 'Telegram',
+          networkLink: '#',
+          icon: 'TelegramIcon',
+          css: 'telegram'
+        },
+        {
+          network: 'WhatsApp',
+          networkLink: '#',
+          icon: 'WhatsAppIcon',
+          css: 'whatsapp'
+        },
+        {
+          network: 'Twitter',
+          networkLink: 'https://twitter.com/NearMexico',
+          icon: 'TwitterIcon',
+          css: 'twitter'
+        },
+        {
+          network: 'Facebook',
+          networkLink: 'https://www.facebook.com/NEAR.Mexico',
+          icon: 'FacebookIcon',
+          css: 'facebook'
+        },
+        {
+          network: 'Github',
+          networkLink: 'https://github.com/nearmexicooficial',
+          icon: 'GithubIcon',
+          css: 'github'
+        },
+        {
+          network: 'Youtube',
+          networkLink: 'https://www.youtube.com/channel/UCEBQEcQAh4UN33lmRd6qinw',
+          icon: 'FacebookIcon',
+          css: 'youtube'
+        }
+      ]
+    }
+  },
 }
 </script>
 
@@ -80,5 +99,11 @@ export default {
 }
 .facebook a {
   color: #1877f2;
+}
+.github a {
+  color: #000000;
+}
+.youtube a {
+  color: #FF0000;
 }
 </style>

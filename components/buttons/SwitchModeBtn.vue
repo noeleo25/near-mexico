@@ -1,50 +1,43 @@
 <template>
   <div class="tabs d-flex align-items-center mx-auto">
-    <div
-      :class="['tab', activeTab == 2 ? 'inactive' : '']"
-      @click="activeTab = 1"
+    <div 
+      v-for="(mode, index) in modes" 
+      :key="index"
+      :class="[colorMode === mode ? 'active' : 'inactive', 'tab']"
+      @click="$colorMode.preference = mode"
     >
-      <div :class="['background-tab left', activeTab == 1 ? 'active' : '']" />
+      <div :class="[index === 0 ? 'left' : 'right', colorMode === mode ? 'active' : 'inactive', 'background-tab']" />
+
       <base-icon
-        class="moon-icon icon"
-        icon-name="moon-icon"
+        class="icon"
+        :icon-name="mode + '-icon'"
         width="24"
         height="24"
-        :style="activeTab == 2 ? 'opacity:.4' : ''"
+        :style="colorMode === mode ? '' : 'opacity:.4'"
       >
-        <MoonIcon />
-      </base-icon>
-    </div>
-    <div
-      :class="['tab', activeTab == 1 ? 'inactive' : '']"
-      @click="activeTab = 2"
-    >
-      <div :class="['background-tab right', activeTab == 2 ? 'active' : '']" />
-      <base-icon
-        class="sun-icon icon"
-        icon-name="sun-icon"
-        width="24"
-        height="24"
-        :style="activeTab == 1 ? 'opacity:.4' : ''"
-      >
-        <SunIcon />
+        <component :is="mode + '-icon'"></component>
       </base-icon>
     </div>
   </div>
 </template>
 
 <script>
-import MoonIcon from '@/components/icons/MoonIcon.vue'
-import SunIcon from '@/components/icons/SunIcon.vue'
+import DarkIcon from '@/components/icons/DarkIcon.vue'
+import LightIcon from '@/components/icons/LightIcon.vue'
 
 export default {
   components: {
-    MoonIcon,
-    SunIcon
+    DarkIcon,
+    LightIcon
   },
-  data () {
+  data() {
     return {
-      activeTab: 1
+      modes: ['dark', 'light']
+    }
+  },
+  computed: {
+    colorMode () {
+      return this.$colorMode.preference
     }
   }
 }

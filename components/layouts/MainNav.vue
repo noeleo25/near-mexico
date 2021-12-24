@@ -20,12 +20,12 @@
           </nuxt-link>
         </li>
         <li class="nav-li link-box mx-3">
-          <nuxt-link to="/">
+          <nuxt-link to="#community-near">
             Nosotros
           </nuxt-link>
         </li>
         <li class="nav-li link-box">
-          <nuxt-link to="/">
+          <nuxt-link to="#news">
             Noticias
           </nuxt-link>
         </li>

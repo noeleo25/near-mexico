@@ -22,12 +22,8 @@
 
       <p class="question">¿ Como puedo ponerme en contacto con NEAR Hispano?</p>
       <p class="answer">
-        Por favor, llena la siguiente forma y un miembro del sindicato se pondrá en contacto contigo: 
-        <a
-          href="https://85cvz5vgyhm.typeform.com/to/Lu4IPM9O"
-        >
-          Link
-        </a>
+        Por favor, llena el siguiente <a href="https://85cvz5vgyhm.typeform.com/to/Lu4IPM9O">formulario</a> 
+        y un miembro del sindicato se pondrá en contacto contigo.
       </p>
     </template>
 

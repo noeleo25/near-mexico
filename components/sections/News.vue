@@ -21,10 +21,10 @@
                 href="#"
               >
                 <img 
-                  src="https://placekitten.com/500/350" 
+                  :src="require(`~/assets/images/${newsItem.imgSrc}.png`)" 
+                  :alt="newsItem.title"
                   width="336" 
                   height="186" 
-                  alt=""
                   class="img-fluid mx-auto"
                 >
                 <p>{{ newsItem.title }}</p>
@@ -43,15 +43,15 @@ export default {
     return {
       news: [
         {
-          imgSrc: 'https://placekitten.com/500/350',
+          imgSrc: 'news-1',
           title: 'Open Web y 4ta Revolución Industrial Un breve informativo'
         },
         {
-          imgSrc: 'https://placekitten.com/500/350',
+          imgSrc: 'news-2',
           title: 'El futuro de las finanzas y la Open Web'
         },
         {
-          imgSrc: 'https://placekitten.com/500/350',
+          imgSrc: 'news-3',
           title: 'La Open Web y la Privacidad'
         }
       ]
