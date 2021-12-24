@@ -4,7 +4,7 @@
       <MainNav/>
     </header>
     <main>
-      <MainBanner />
+      <Banner />
 
       <CommunityNear/>
 
@@ -14,26 +14,26 @@
 
       <FrequentQuestions/>
     </main>
-    <footer>
-      
-    </footer>
+    <MainFooter/>
   </div>
 </template>
 
 <script>
+import Banner from '@/components/sections/Banner.vue'
 import CommunityNear from '@/components/sections/CommunityNear.vue'
 import CommunityReasons from '@/components/sections/CommunityReasons.vue'
 import FrequentQuestions from '@/components/sections/FrequentQuestions.vue'
-import MainBanner from '@/components/sections/MainBanner.vue'
+import MainFooter from '@/components/layouts/MainFooter.vue'
 import MainNav from '@/components/layouts/MainNav.vue'
 import News from '@/components/sections/News.vue'
 
 export default {
   components: {
+    Banner,
     CommunityNear,
     CommunityReasons,
     FrequentQuestions,
-    MainBanner,
+    MainFooter,
     MainNav,
     News
   }
