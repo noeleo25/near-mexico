@@ -27,6 +27,7 @@ import TelegramIcon from '@/components/icons/TelegramIcon.vue'
 import TwitterIcon from '@/components/icons/TwitterIcon.vue'
 import WhatsAppIcon from '@/components/icons/WhatsAppIcon.vue'
 import GithubIcon from '@/components/icons/GithubIcon.vue'
+import YoutubeIcon from '@/components/icons/YoutubeIcon.vue'
 
 
 export default {
@@ -35,7 +36,8 @@ export default {
     TelegramIcon,
     TwitterIcon,
     WhatsAppIcon,
-    GithubIcon
+    GithubIcon,
+    YoutubeIcon
   },
   data() {
     return {
@@ -73,7 +75,7 @@ export default {
         {
           network: 'Youtube',
           networkLink: 'https://www.youtube.com/channel/UCEBQEcQAh4UN33lmRd6qinw',
-          icon: 'FacebookIcon',
+          icon: 'YoutubeIcon',
           css: 'youtube'
         }
       ]
