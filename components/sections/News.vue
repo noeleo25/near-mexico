@@ -101,4 +101,9 @@ export default {
   }
 }
 
+@media (min-width: 992px) { 
+  .news-card {
+    margin-bottom: 0;
+  }
+}
 </style>

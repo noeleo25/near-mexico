@@ -11,6 +11,8 @@
       <CommunityReasons/>
 
       <News/>
+
+      <FrequentQuestions/>
     </main>
     <footer>
       
@@ -21,6 +23,7 @@
 <script>
 import CommunityNear from '@/components/sections/CommunityNear.vue'
 import CommunityReasons from '@/components/sections/CommunityReasons.vue'
+import FrequentQuestions from '@/components/sections/FrequentQuestions.vue'
 import MainBanner from '@/components/sections/MainBanner.vue'
 import MainNav from '@/components/layouts/MainNav.vue'
 import News from '@/components/sections/News.vue'
@@ -29,6 +32,7 @@ export default {
   components: {
     CommunityNear,
     CommunityReasons,
+    FrequentQuestions,
     MainBanner,
     MainNav,
     News
