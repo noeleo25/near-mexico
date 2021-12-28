@@ -1,9 +1,9 @@
 <template>
     <div>
         <div class="cs-bg">
-            <img  class="map" src="~/assets/map-bg.svg">
+            <img  class="map" src="~/assets/images/map-bg.svg">
             <div class="over">
-                <img class="logo" src="~/assets/logo.svg">
+                <img class="logo" src="~/assets/images/logo.svg">
                 <h1> Coming Soon </h1>
             </div>
         </div>
@@ -11,7 +11,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 html{
     background-color: black;
 }
