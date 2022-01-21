@@ -1,35 +1,67 @@
-<svg id="undraw_faq_re_31cw" xmlns="http://www.w3.org/2000/svg" width="312" height="336" viewBox="0 0 313 336">
-    <defs>
-        <style>
-            .cls-1{fill:#2f2e41}.cls-2{fill:#fff}.cls-3{fill:#3f3d56}.cls-5{fill:#29c44d}.cls-7{fill:#f2f2f2}
-        </style>
-    </defs>
-    <ellipse id="Elipse_51" data-name="Elipse 51" class="cls-1" cx="10.903" cy="4.089" rx="10.903" ry="4.089" transform="translate(62.811 327.371)"/>
-    <ellipse id="Elipse_52" data-name="Elipse 52" class="cls-1" cx="10.903" cy="4.089" rx="10.903" ry="4.089" transform="translate(88.978 326.826)"/>
-    <ellipse id="Elipse_53" data-name="Elipse 53" class="cls-1" cx="21.534" cy="6.76" rx="21.534" ry="6.76" transform="rotate(-29.962 550.361 -71.396)"/>
-    <circle id="Elipse_54" data-name="Elipse 54" class="cls-1" cx="43.067" cy="43.067" r="43.067" transform="rotate(-80.783 198.432 135.37)"/>
-    <path id="Rectángulo_27" data-name="Rectángulo 27" class="cls-1" transform="translate(62.811 307.746)" d="M0 0h13.084v23.442H0z"/>
-    <path id="Rectángulo_28" data-name="Rectángulo 28" class="cls-1" transform="translate(88.978 307.746)" d="M0 0h13.084v23.442H0z"/>
-    <circle id="Elipse_55" data-name="Elipse 55" class="cls-2" cx="14.719" cy="14.719" r="14.719" transform="translate(68.808 248.324)"/>
-    <circle id="Elipse_56" data-name="Elipse 56" class="cls-3" cx="4.906" cy="4.906" r="4.906" transform="translate(78.62 258.137)"/>
-    <path id="Trazado_108" data-name="Trazado 108" d="M379.16 515.9c-3.477-15.574 7.639-31.31 24.829-35.149s33.944 5.67 37.421 21.249-7.915 21.318-25.1 25.156-33.673 4.313-37.15-11.256z" transform="translate(-338.5 -282)" style="fill:#ff6584"/>
-    <ellipse id="Elipse_57" data-name="Elipse 57" class="cls-1" cx="6.76" cy="21.534" rx="6.76" ry="21.534" transform="rotate(-64.626 204.086 116.27)"/>
-    <path id="Trazado_109" data-name="Trazado 109" class="cls-2" d="M399.782 571.483c0 4.215 10.853 12.539 22.9 12.539s23.335-11.867 23.335-16.082-11.292.818-23.335.818-22.9-1.49-22.9 2.725z" transform="translate(-338.5 -282)"/>
-    <ellipse id="Elipse_58" data-name="Elipse 58" class="cls-1" cx="10.903" cy="4.089" rx="10.903" ry="4.089" transform="translate(221.706 327.371)"/>
-    <ellipse id="Elipse_59" data-name="Elipse 59" class="cls-1" cx="10.903" cy="4.089" rx="10.903" ry="4.089" transform="translate(195.538 326.826)"/>
-    <ellipse id="Elipse_60" data-name="Elipse 60" class="cls-1" cx="6.76" cy="21.534" rx="6.76" ry="21.534" transform="rotate(-60.038 297.644 -4.676)"/>
-    <circle id="Elipse_61" data-name="Elipse 61" class="cls-1" cx="43.067" cy="43.067" r="43.067" transform="translate(180.819 230.879)"/>
-    <path id="Rectángulo_29" data-name="Rectángulo 29" class="cls-1" transform="translate(230.428 307.746)" d="M0 0h13.084v23.442H0z"/>
-    <path id="Rectángulo_30" data-name="Rectángulo 30" class="cls-1" transform="translate(204.261 307.746)" d="M0 0h13.084v23.442H0z"/>
-    <circle id="Elipse_62" data-name="Elipse 62" class="cls-2" cx="14.719" cy="14.719" r="14.719" transform="translate(199.077 248.324)"/>
-    <ellipse id="Elipse_63" data-name="Elipse 63" class="cls-3" cx="4.921" cy="4.886" rx="4.921" ry="4.886" transform="rotate(-44.974 415.262 -110.876)"/>
-    <path id="Trazado_110" data-name="Trazado 110" class="cls-5" d="M567.018 527.151c-17.19-3.838-28.582-9.582-25.1-25.156s20.232-25.087 37.422-21.249 28.306 19.575 24.829 35.149-19.961 15.094-37.151 11.256z" transform="translate(-338.5 -282)"/>
-    <ellipse id="Elipse_64" data-name="Elipse 64" class="cls-1" cx="6.76" cy="21.534" rx="6.76" ry="21.534" transform="rotate(-14.9 1146.74 -828.007)"/>
-    <path id="Trazado_111" data-name="Trazado 111" class="cls-2" d="M552.629 568.758c-7.907 0-15.32-5.033-15.32-.818s7.413 16.082 15.32 16.082 15.032-8.323 15.032-12.539-7.125-2.725-15.032-2.725z" transform="translate(-338.5 -282)"/>
-    <path id="Trazado_112" data-name="Trazado 112" class="cls-5" d="M496.972 484.539h-3.825a12.937 12.937 0 0 1-12.923-12.923v-3.211c0-7.953 1.507-14.612 4.479-19.793a104.112 104.112 0 0 1 12.542-16.852 74.269 74.269 0 0 0 8.528-10.279 17.29 17.29 0 0 0 2.693-9.562c0-7.978-5.2-11.856-15.891-11.856a64.524 64.524 0 0 0-17.515 2.629 14.745 14.745 0 0 1-18.793-14.178v-6.5a14.463 14.463 0 0 1 8.532-13.256 78.083 78.083 0 0 1 31.81-6.258c11.444 0 21.775 1.922 30.707 5.713 8.948 3.8 16.017 9.157 21.011 15.924a38.352 38.352 0 0 1 7.536 23.244c0 8.98-2.452 16.8-7.287 23.247-4.782 6.38-11.638 13.364-20.376 20.76a145.2 145.2 0 0 0-13.063 12.307 22.718 22.718 0 0 0-5.431 10.111 12.888 12.888 0 0 1-12.735 10.733z" transform="translate(-338.5 -282)"/>
-    <path id="Trazado_113" data-name="Trazado 113" class="cls-5" d="M494.845 545.311h-.5a23.951 23.951 0 0 1 0-47.9h.5a23.951 23.951 0 1 1 0 47.9z" transform="translate(-338.5 -282)"/>
-    <path id="Trazado_114" data-name="Trazado 114" d="M650.5 618h-311a1 1 0 0 1 0-2h311a1 1 0 0 1 0 2z" transform="translate(-338.5 -282)" style="fill:#ccc"/>
-    <path id="Trazado_118" data-name="Trazado 118" class="cls-7" d="M553.661 331h-26a5.006 5.006 0 0 1-5-5v-26a5.006 5.006 0 0 1 5-5h26a5.006 5.006 0 0 1 5 5v26a5.006 5.006 0 0 1-5 5zm-26-34a3 3 0 0 0-3 3v26a3 3 0 0 0 3 3h26a3 3 0 0 0 3-3v-26a3 3 0 0 0-3-3z" transform="translate(-338.5 -282)"/>
-    <path id="Trazado_119" data-name="Trazado 119" class="cls-7" d="M537.661 318h-26a5.006 5.006 0 0 1-5-5v-26a5.006 5.006 0 0 1 5-5h26a5.006 5.006 0 0 1 5 5v26a5.006 5.006 0 0 1-5 5zm-26-34a3 3 0 0 0-3 3v26a3 3 0 0 0 3 3h26a3 3 0 0 0 3-3v-26a3 3 0 0 0-3-3z" transform="translate(-338.5 -282)"/>
-    <circle id="Elipse_67" data-name="Elipse 67" class="cls-7" cx="6.467" cy="6.467" r="6.467" transform="translate(54.754 153.703)"/>
+<svg 
+  id="undraw_faq_re_31cw" 
+  xmlns="http://www.w3.org/2000/svg" 
+  width="312" 
+  height="336" 
+  viewBox="0 0 313 336"
+>
+  <defs>
+    <style>
+      .cls-1 { 
+        fill: #2f2e41;
+      }
+      .cls-2 {
+        fill: #fff;
+      }
+      .cls-3 {
+        fill: #3f3d56;
+      }
+      .cls-5 {
+        fill: #29c44d;
+      }
+      .cls-7 {
+        fill: #f2f2f2;
+      }
+
+      #Elipse_57 {
+        transform: translate(55px, 280px) rotate(120deg);
+        animation: greet 1.5s ease infinite;
+      }
+
+      @keyframes greet {
+        50% { transform: translate(55px, 280px) rotate(140deg); }
+      }
+    </style>
+  </defs>
+
+  <ellipse id="Elipse_51" data-name="Elipse 51" class="cls-1" cx="10.903" cy="4.089" rx="10.903" ry="4.089" transform="translate(62.811 327.371)"/>
+  <ellipse id="Elipse_52" data-name="Elipse 52" class="cls-1" cx="10.903" cy="4.089" rx="10.903" ry="4.089" transform="translate(88.978 326.826)"/>
+  <ellipse id="Elipse_53" data-name="Elipse 53" class="cls-1" cx="21.534" cy="6.76" rx="21.534" ry="6.76" transform="rotate(-29.962 550.361 -71.396)"/>
+  <circle id="Elipse_54" data-name="Elipse 54" class="cls-1" cx="43.067" cy="43.067" r="43.067" transform="rotate(-80.783 198.432 135.37)"/>
+  <path id="Rectángulo_27" data-name="Rectángulo 27" class="cls-1" transform="translate(62.811 307.746)" d="M0 0h13.084v23.442H0z"/>
+  <path id="Rectángulo_28" data-name="Rectángulo 28" class="cls-1" transform="translate(88.978 307.746)" d="M0 0h13.084v23.442H0z"/>
+  <circle id="Elipse_55" data-name="Elipse 55" class="cls-2" cx="14.719" cy="14.719" r="14.719" transform="translate(68.808 248.324)"/>
+  <circle id="Elipse_56" data-name="Elipse 56" class="cls-3" cx="4.906" cy="4.906" r="4.906" transform="translate(78.62 258.137)"/>
+  <path id="Trazado_108" data-name="Trazado 108" d="M379.16 515.9c-3.477-15.574 7.639-31.31 24.829-35.149s33.944 5.67 37.421 21.249-7.915 21.318-25.1 25.156-33.673 4.313-37.15-11.256z" transform="translate(-338.5 -282)" style="fill:#ff6584"/>
+  
+  <ellipse id="Elipse_57" data-name="Elipse 57" class="cls-1" cx="6.76" cy="21.534" rx="6.76" ry="21.534" />
+  
+  <path id="Trazado_109" data-name="Trazado 109" class="cls-2" d="M399.782 571.483c0 4.215 10.853 12.539 22.9 12.539s23.335-11.867 23.335-16.082-11.292.818-23.335.818-22.9-1.49-22.9 2.725z" transform="translate(-338.5 -282)"/>
+  <ellipse id="Elipse_58" data-name="Elipse 58" class="cls-1" cx="10.903" cy="4.089" rx="10.903" ry="4.089" transform="translate(221.706 327.371)"/>
+  <ellipse id="Elipse_59" data-name="Elipse 59" class="cls-1" cx="10.903" cy="4.089" rx="10.903" ry="4.089" transform="translate(195.538 326.826)"/>
+  <ellipse id="Elipse_60" data-name="Elipse 60" class="cls-1" cx="6.76" cy="21.534" rx="6.76" ry="21.534" transform="rotate(-60.038 297.644 -4.676)"/>
+  <circle id="Elipse_61" data-name="Elipse 61" class="cls-1" cx="43.067" cy="43.067" r="43.067" transform="translate(180.819 230.879)"/>
+  <path id="Rectángulo_29" data-name="Rectángulo 29" class="cls-1" transform="translate(230.428 307.746)" d="M0 0h13.084v23.442H0z"/>
+  <path id="Rectángulo_30" data-name="Rectángulo 30" class="cls-1" transform="translate(204.261 307.746)" d="M0 0h13.084v23.442H0z"/>
+  <circle id="Elipse_62" data-name="Elipse 62" class="cls-2" cx="14.719" cy="14.719" r="14.719" transform="translate(199.077 248.324)"/>
+  <ellipse id="Elipse_63" data-name="Elipse 63" class="cls-3" cx="4.921" cy="4.886" rx="4.921" ry="4.886" transform="rotate(-44.974 415.262 -110.876)"/>
+  <path id="Trazado_110" data-name="Trazado 110" class="cls-5" d="M567.018 527.151c-17.19-3.838-28.582-9.582-25.1-25.156s20.232-25.087 37.422-21.249 28.306 19.575 24.829 35.149-19.961 15.094-37.151 11.256z" transform="translate(-338.5 -282)"/>
+  <ellipse id="Elipse_64" data-name="Elipse 64" class="cls-1" cx="6.76" cy="21.534" rx="6.76" ry="21.534" transform="rotate(-14.9 1146.74 -828.007)"/>
+  <path id="Trazado_111" data-name="Trazado 111" class="cls-2" d="M552.629 568.758c-7.907 0-15.32-5.033-15.32-.818s7.413 16.082 15.32 16.082 15.032-8.323 15.032-12.539-7.125-2.725-15.032-2.725z" transform="translate(-338.5 -282)"/>
+  <path id="Trazado_112" data-name="Trazado 112" class="cls-5" d="M496.972 484.539h-3.825a12.937 12.937 0 0 1-12.923-12.923v-3.211c0-7.953 1.507-14.612 4.479-19.793a104.112 104.112 0 0 1 12.542-16.852 74.269 74.269 0 0 0 8.528-10.279 17.29 17.29 0 0 0 2.693-9.562c0-7.978-5.2-11.856-15.891-11.856a64.524 64.524 0 0 0-17.515 2.629 14.745 14.745 0 0 1-18.793-14.178v-6.5a14.463 14.463 0 0 1 8.532-13.256 78.083 78.083 0 0 1 31.81-6.258c11.444 0 21.775 1.922 30.707 5.713 8.948 3.8 16.017 9.157 21.011 15.924a38.352 38.352 0 0 1 7.536 23.244c0 8.98-2.452 16.8-7.287 23.247-4.782 6.38-11.638 13.364-20.376 20.76a145.2 145.2 0 0 0-13.063 12.307 22.718 22.718 0 0 0-5.431 10.111 12.888 12.888 0 0 1-12.735 10.733z" transform="translate(-338.5 -282)"/>
+  <path id="Trazado_113" data-name="Trazado 113" class="cls-5" d="M494.845 545.311h-.5a23.951 23.951 0 0 1 0-47.9h.5a23.951 23.951 0 1 1 0 47.9z" transform="translate(-338.5 -282)"/>
+  <path id="Trazado_114" data-name="Trazado 114" d="M650.5 618h-311a1 1 0 0 1 0-2h311a1 1 0 0 1 0 2z" transform="translate(-338.5 -282)" style="fill:#ccc"/>
+  <path id="Trazado_118" data-name="Trazado 118" class="cls-7" d="M553.661 331h-26a5.006 5.006 0 0 1-5-5v-26a5.006 5.006 0 0 1 5-5h26a5.006 5.006 0 0 1 5 5v26a5.006 5.006 0 0 1-5 5zm-26-34a3 3 0 0 0-3 3v26a3 3 0 0 0 3 3h26a3 3 0 0 0 3-3v-26a3 3 0 0 0-3-3z" transform="translate(-338.5 -282)"/>
+  <path id="Trazado_119" data-name="Trazado 119" class="cls-7" d="M537.661 318h-26a5.006 5.006 0 0 1-5-5v-26a5.006 5.006 0 0 1 5-5h26a5.006 5.006 0 0 1 5 5v26a5.006 5.006 0 0 1-5 5zm-26-34a3 3 0 0 0-3 3v26a3 3 0 0 0 3 3h26a3 3 0 0 0 3-3v-26a3 3 0 0 0-3-3z" transform="translate(-338.5 -282)"/>
+  <circle id="Elipse_67" data-name="Elipse 67" class="cls-7" cx="6.467" cy="6.467" r="6.467" transform="translate(54.754 153.703)"/>
 </svg>

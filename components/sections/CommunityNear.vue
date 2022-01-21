@@ -12,17 +12,20 @@
 
     <template v-slot:right-side >
       <h2 class="mb-0 section-title">Comunidad de Near México</h2>
-      <p class="text-justify first-paragraph">
-        Somos un grupo de entusiastas Mexicanos conformados por 
-        distintos perfiles profesionales: creadores, colaboradores, 
-        emprendedores e iniciales los cuales tenemos como objetivo la 
-        difusión y apoyo en el trabajo de la tecnología blockchain.
-      </p>
 
-      <p class="text-justify second-paragraph">
-        Si quieres pasar un buen rato compartiendo y aprendiendo 
-        conocimiento  te invitamos a unirte a esta gran comunidad. 
-      </p>
+      <div class="paragraphs">
+        <p>
+          Somos un grupo de entusiastas Mexicanos conformados por 
+          distintos perfiles profesionales: creadores, colaboradores, 
+          emprendedores e iniciales los cuales tenemos como objetivo la 
+          difusión y apoyo en el trabajo de la tecnología blockchain.
+        </p>
+
+        <p>
+          Si quieres pasar un buen rato compartiendo y aprendiendo 
+          conocimiento  te invitamos a unirte a esta gran comunidad. 
+        </p>
+      </div>
 
       <SocialMediaButtons class="social-media mx-auto"/>
     </template>
@@ -47,16 +50,17 @@ export default {
   animation: slideToRight 1.5s ease;
 }
 
-.right-col p {
+.paragraphs p {
   margin-bottom: 2rem;
+  text-align: justify;
 }
 
-.first-paragraph {
+.paragraphs p:first-child {
   animation: slideToRight 2s ease;
 }
 
-.second-paragraph {
-  animation: slideToRight 2.5s ease;
+.paragraphs p:last-child {
+  animation: slideToRight 2s ease;
 }
 
 .social-media {
@@ -73,19 +77,6 @@ export default {
   }
   25% {
     opacity: .5;
-  }
-  100% {
-    transform: translate( 0, 0);
-  }
-}
-
-@keyframes slideToLeft {
-  0% {
-    opacity: 0;
-    transform: translate(100px, 0) scale(0.5);
-  }
-  50% {
-    transform: scale(1);
   }
   100% {
     transform: translate( 0, 0);
