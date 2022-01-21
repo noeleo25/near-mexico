@@ -57,6 +57,80 @@ section {
   margin-bottom: 20px !important;
 }
 
+/* Styles to CommunityReasons and FrequentQuestions sections */
+
+#community-reasons .section-title,
+#frequent-questions .section-title {
+  margin-bottom: 50px !important;
+  animation: moveToBottom 1s ease;
+}
+
+.question-container .question {
+  color: #29c44d;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.question-container .answer {
+  text-align: justify;
+}
+
+.question-container:nth-child(1) {
+  animation: moveToTop 1s ease;
+}
+
+.question-container:nth-child(2) {
+  animation: moveToTop 1.5s ease;
+}
+
+.question-container:nth-child(3) {
+  animation: moveToTop 2s ease;
+}
+
+.right-col img {
+  animation: slideToLeft 1.5s ease;
+}
+
+/* Animations */
+@keyframes moveToBottom {
+  0% {
+    opacity: 0;
+    transform: translate(0, -100px);
+  }
+  25% {
+    opacity: .5;
+  }
+  100% {
+    transform: translate( 0, 0);
+  }
+}
+
+@keyframes moveToTop {
+  0% {
+    opacity: 0;
+    transform: translate(0, 50px);
+  }
+  25% {
+    opacity: .5;
+  }
+  100% {
+    transform: translate( 0, 0);
+  }
+}
+
+@keyframes slideToLeft {
+  0% {
+    opacity: 0;
+    transform: translate(100px, 0) scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: translate( 0, 0);
+  }
+}
+
 @media (min-width: 768px) { 
   section {
     padding-top: 80px;

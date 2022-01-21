@@ -31,12 +31,12 @@
 
       #Elipse_9 {
         transform: translate(75.336px, 130.17px);
-        animation: moveLine 5s ease infinite;
+        animation: moveLine 4s infinite;
       }
 
       @keyframes moveLine {
         15% { transform: translate(75.336px, 125.126px); }
-        55% { transform: translate(176px, 125.126px); }
+        50% { transform: translate(176px, 125.126px); }
         70% { transform: translate(236px, 158px); }
         85% { 
           transform: translate(262px, 108px); 
@@ -49,14 +49,19 @@
       }
 
       #Elipse_34 {
-        fill: #ff6584;
-        animation: colors 19s ease infinite;
+        animation: colors 8s infinite linear;
       }
 
       @keyframes colors {
-        25% { fill: #29c44d; }
-        50% { fill: #3f3d56; }
-        75% { fill: #E2FFE7; }
+        0% { 
+          fill: #ff6584;
+        }
+        50% {
+          fill: #29c44d;
+        }
+        100% {
+          fill: #ff6584;
+        }
       }
 
       #Elipse_38 {
