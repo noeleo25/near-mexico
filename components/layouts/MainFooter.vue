@@ -20,17 +20,23 @@ export default {
 footer {
   background-color: #2f2e41;
   margin-top: 180px;
-  padding: 100px 0 22px;
+  padding: 60px 0 4px;
+}
+
+img {
+  animation: slideToTop 1s ease;
 }
 
 .social-media {
   justify-content: center;
   max-width: 504px;
-  margin: 22px 0px 62px;
+  margin: 22px 0px 40px;
+  animation: slideToTop 1s ease;
 }
 
 p {
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: .9rem;
+  animation: slideToTop 1s ease;
 }
 </style>

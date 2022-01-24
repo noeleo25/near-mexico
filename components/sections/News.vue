@@ -15,6 +15,7 @@
             cols="12"
             sm="6"
             lg="4"
+            class="card-col"
           >
             <div class="news-card mx-auto">
               <a 
@@ -64,21 +65,39 @@ export default {
 #news {
   padding-top: 26px !important;
 }
+
 .section-title {
   margin-bottom: 50px !important;
 }
+
+.col-12:nth-child(1) {
+  animation: slideToTop 1s ease;
+}
+
+.col-12:nth-child(2) {
+  animation: slideToTop 1.5s ease;
+}
+
+.col-12:nth-child(3) {
+  animation: slideToTop 2s ease;
+}
+
+.col-12:last-child .news-card {
+  margin-bottom: 0;
+}
+
 .news-card {
   max-width: 100%;
   margin-bottom: 32px;
 }
 
-.col-12:last-child .news-card{
-  margin-bottom: 0;
-}
-
 .news-card a {
   display: flex;
   flex-direction: column;
+}
+
+.news-card a:hover {
+  color: #29c44d;
 }
 
 .news-card img {
@@ -87,9 +106,6 @@ export default {
   margin-bottom: 24px;
 }
 
-.news-card a:hover {
-  color: #29c44d;
-}
 .news-card p {
   color: #29c44d;
   text-align: center;

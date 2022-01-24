@@ -95,7 +95,7 @@ export default {
 
 .nav-li a {
   color: var(--primary-color);
-  font-size: 16px;
+  font-size: .95rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;

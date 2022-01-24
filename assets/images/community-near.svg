@@ -1,9 +1,75 @@
-<svg id="undraw_good_team_m-7-uu" xmlns="http://www.w3.org/2000/svg" width="402" height="300" viewBox="0 0 402 299.924">
-    <defs>
-        <style>
-            .cls-1{fill:none;stroke:#3f3d56;stroke-miterlimit:10;stroke-width:2px}.cls-2{fill:#2f2e41}.cls-4{fill:#3f3d56}.cls-5{fill:#fff}.cls-6{fill:#29c44d}.cls-7{fill:#ff6584}
-        </style>
-    </defs>
+<svg 
+  id="undraw_good_team_m-7-uu" 
+  xmlns="http://www.w3.org/2000/svg" 
+  width="402" 
+  height="300" 
+  viewBox="0 0 402 299.924"
+>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3f3d56;
+        stroke-miterlimit: 10;
+        stroke-width: 2px
+      }
+      .cls-2 {
+        fill: #2f2e41;
+      }
+      .cls-4 {
+        fill: #3f3d56;
+      }
+      .cls-5 {
+        fill: #fff;
+      }
+      .cls-6 {
+        fill: #29c44d;
+      }
+      .cls-7 {
+        fill: #ff6584;
+      }
+
+      #Elipse_9 {
+        transform: translate(75.336px, 130.17px);
+        animation: moveLine 4s infinite;
+      }
+
+      @keyframes moveLine {
+        15% { transform: translate(75.336px, 125.126px); }
+        50% { transform: translate(176px, 125.126px); }
+        70% { transform: translate(236px, 158px); }
+        85% { 
+          transform: translate(262px, 108px); 
+          opacity: 1;
+        }
+        100% { 
+          transform: translate(330px, 108px); 
+          opacity: 0;        
+        }
+      }
+
+      #Elipse_34 {
+        fill: #ff6584;  
+        animation: colors 8s infinite ease-out;
+      }
+
+      @keyframes colors {
+        50% {
+          fill: #29c44d;
+        }
+      }
+
+      #Elipse_38 {
+        transform: translate(161.486px, 86.941px);
+        animation: move 6s ease infinite;
+      }
+
+      @keyframes move {
+        30% { transform: translate(139px, 86.941px); }
+        60% { transform: translate(186px, 86.941px); }
+      }
+    </style>
+  </defs>
     <path id="Línea_1" data-name="Línea 1" class="cls-1" transform="translate(140.479 91.963)" d="M0 0h51.875"/>
     <ellipse id="Elipse_1" data-name="Elipse 1" class="cls-2" cx="14.23" cy="4.467" rx="14.23" ry="4.467" transform="rotate(-69.08 148.358 32.271)"/>
     <path id="Trazado_13" data-name="Trazado 13" d="M894.991 367.641c5.643 42-2.041 84.046-41.129 100.419a76.732 76.732 0 0 1-100.419-41.128c-16.372-39.087 22.257-62.475 41.128-100.419 38.322-77.054 82.894-89.302 100.42 41.128z" transform="translate(-494.64 -184.171)" style="fill:#f2f2f2"/>
@@ -19,11 +85,14 @@
     <path id="Trazado_14" data-name="Trazado 14" class="cls-6" d="M1024.333 741.509c10.531-.527 18.6-10.378 18.016-22s-9.591-20.621-20.122-20.093-12.184 8.794-11.6 20.419 3.173 22.201 13.706 21.674z" transform="translate(-661.635 -459.588)"/>
     <path id="Trazado_15" data-name="Trazado 15" class="cls-5" d="M912.9 705.6a6.484 6.484 0 0 1-1.046-12.927c3.57-.289 4.543 2.545 4.832 6.115s-.221 6.523-3.786 6.812z" transform="translate(-594.695 -455.277)"/>
     <path id="Trazado_16" data-name="Trazado 16" class="cls-1" d="M49.464 330.868h159.4l24.714 12.04 39.377 19.184 25.746-48.2h72.859" transform="translate(-31.645 -200.812)"/>
-    <circle id="Elipse_9" data-name="Elipse 9" class="cls-6" cx="4.93" cy="4.93" r="4.93" transform="translate(75.336 130.17)"/>
-    <circle id="Elipse_10" data-name="Elipse 10" class="cls-6" cx="4.93" cy="4.93" r="4.93" transform="translate(121.35 125.126)"/>
+    
+    <circle id="Elipse_9" data-name="Elipse 9" class="cls-6" cx="4.93" cy="4.93" r="4.93"/>
+    <!-- <circle id="Elipse_10" data-name="Elipse 10" class="cls-6" cx="4.93" cy="4.93" r="4.93" transform="translate(121.35 125.126)"/>
     <circle id="Elipse_11" data-name="Elipse 11" class="cls-6" cx="4.93" cy="4.93" r="4.93" transform="translate(196.944 137.178)"/>
-    <circle id="Elipse_12" data-name="Elipse 12" class="cls-6" cx="4.93" cy="4.93" r="4.93" transform="translate(303.214 108.145)"/>
-    <circle id="Elipse_13" data-name="Elipse 13" class="cls-6" cx="4.93" cy="4.93" r="4.93" transform="translate(251.722 127.318)"/>
+    <circle id="Elipse_12" data-name="Elipse 13" class="cls-6" cx="4.93" cy="4.93" r="4.93" transform="translate(251.722 127.318)"/>
+    <circle id="Elipse_13" data-name="Elipse 12" class="cls-6" cx="4.93" cy="4.93" r="4.93" transform="translate(303.214 108.145)"/> -->
+    
+
     <circle id="Elipse_14" data-name="Elipse 14" class="cls-1" cx="5.316" cy="5.316" r="5.316" transform="translate(148.715 204.144)"/>
     <ellipse id="Elipse_15" data-name="Elipse 15" class="cls-4" cx="61.241" cy="8.331" rx="61.241" ry="8.331" transform="translate(0 283.262)"/>
     <circle id="Elipse_16" data-name="Elipse 16" class="cls-2" cx="28.459" cy="28.459" r="28.459" transform="translate(29.47 222.427)"/>
@@ -60,12 +129,17 @@
     <ellipse id="Elipse_33" data-name="Elipse 33" class="cls-2" cx="4.467" cy="14.23" rx="4.467" ry="14.23" transform="rotate(-77.11 216.646 -177.211)"/>
     <path id="Trazado_21" data-name="Trazado 21" class="cls-5" d="M946.965 248.317a6.484 6.484 0 1 1-12.761 2.31c-.638-3.524 2.087-4.771 5.611-5.409s6.512-.425 7.15 3.099z" transform="translate(-612.75 -168.846)"/>
     <path id="Línea_2" data-name="Línea 2" class="cls-1" transform="translate(256.71 35.664)" d="m0 0 32.782 25.217"/>
-    <circle id="Elipse_34" data-name="Elipse 34" class="cls-7" cx="24.496" cy="24.496" r="24.496" transform="translate(216.723)"/>
+
+    <circle id="Elipse_34" data-name="Elipse 34" cx="24.496" cy="24.496" r="24.496" transform="translate(216.723)"/>
+
     <ellipse id="Elipse_35" data-name="Elipse 35" class="cls-2" cx="14.23" cy="4.467" rx="14.23" ry="4.467" transform="rotate(-82.281 304.31 -52.637)"/>
+    
     <circle id="Elipse_36" data-name="Elipse 36" class="cls-6" cx="4.93" cy="4.93" r="4.93" transform="translate(19.859 278.229)"/>
     <path id="Rectángulo_18" data-name="Rectángulo 18" class="cls-7" transform="translate(92.439 277.387)" d="M0 0h12.969v12.969H0z"/>
     <circle id="Elipse_37" data-name="Elipse 37" class="cls-6" cx="4.93" cy="4.93" r="4.93" transform="translate(87.584 281.111)"/>
-    <circle id="Elipse_38" data-name="Elipse 38" class="cls-6" cx="4.93" cy="4.93" r="4.93" transform="translate(161.486 86.941)"/>
+
+    <circle id="Elipse_38" data-name="Elipse 38" class="cls-6" cx="4.93" cy="4.93" r="4.93"/>
+
     <circle id="Elipse_39" data-name="Elipse 39" class="cls-7" cx="2.354" cy="2.354" r="2.354" transform="translate(259.802 242.341)"/>
     <path id="Línea_3" data-name="Línea 3" transform="translate(273.69 256.965)" style="fill:#3f3d56;stroke:#3f3d56;stroke-miterlimit:10;stroke-width:2px" d="M0 26.806V0"/>
     <circle id="Elipse_40" data-name="Elipse 40" class="cls-4" cx="3.791" cy="3.791" r="3.791" transform="translate(269.899 253.175)"/>

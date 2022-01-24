@@ -47,7 +47,7 @@ export default {
 
 <style>
 section {
-  padding-top: 40px;
+  padding-top: 34px;
 }
 
 .section-title {
