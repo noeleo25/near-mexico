@@ -49,18 +49,13 @@
       }
 
       #Elipse_34 {
-        animation: colors 8s infinite linear;
+        fill: #ff6584;  
+        animation: colors 8s infinite ease-out;
       }
 
       @keyframes colors {
-        0% { 
-          fill: #ff6584;
-        }
         50% {
           fill: #29c44d;
-        }
-        100% {
-          fill: #ff6584;
         }
       }
 

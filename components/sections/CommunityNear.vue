@@ -70,16 +70,4 @@ export default {
   animation: slideToRight 3s ease;
 }
 
-@keyframes slideToRight {
-  0% {
-    opacity: 0;
-    transform: translate(-100px, 0);
-  }
-  25% {
-    opacity: .5;
-  }
-  100% {
-    transform: translate( 0, 0);
-  }
-}
 </style>

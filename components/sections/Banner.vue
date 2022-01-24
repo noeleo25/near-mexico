@@ -14,8 +14,8 @@
         <span class="wrap"></span>
       </h1>
       <p>La voz de la comunidad para el ecosistema NEAR en México</p>
-      <div>
-        <button class="join-btn mr-2">Unirse</button>
+      <div class="position-relative mt-4 mt-sm-0">
+        <button class="join-btn mb-5 mr-2 mb-sm-0">Unirse</button>
         <button class="welcome-btn">
           Bienvenida
           <base-icon
@@ -107,9 +107,10 @@ txtType.prototype.tick = function() {
 .text-col h1 {
   font-size: 3.5rem;
   font-weight: 800;
+  min-height: 136px;
 }
 .text-col p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 .text-col .join-btn {
@@ -130,23 +131,12 @@ txtType.prototype.tick = function() {
   border: 6px solid #29c44d;
   position: absolute;
   z-index: -1;
-  top: 63%;
-  left: 13%;
+  top: 21px;
+  left: 60px;
   transform: translate(-50%, -50%);
   animation: ring 1.5s infinite;
 }
-@keyframes ring {
-  0% {
-    width: 30px;
-    height: 30px;
-    opacity: 1;
-  }
-  100% {
-    width: 150px;
-    height: 150px;
-    opacity: 0;
-  }
-}
+
 .text-col .welcome-btn {
   width: 140px;
   height: 42px;
@@ -154,5 +144,11 @@ txtType.prototype.tick = function() {
   border: solid 1px #29c44d;
   background-color: transparent;
   color: #29c44d;
+}
+
+@media (min-width: 410px) { 
+  .text-col h1 {
+    min-height: auto;
+  }
 }
 </style>
