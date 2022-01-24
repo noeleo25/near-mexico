@@ -15,6 +15,40 @@ body {
   transition: background-color 0.3s;
 }
 
+/* Styles to CommunityReasons and FrequentQuestions sections */
+
+#community-reasons .section-title,
+#frequent-questions .section-title {
+  margin-bottom: 50px !important;
+  animation: slideToBottom 1s ease;
+}
+
+.question-container .question {
+  color: #29c44d;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.question-container .answer {
+  text-align: justify;
+}
+
+.question-container:nth-child(1) {
+  animation: slideToTop 1s ease;
+}
+
+.question-container:nth-child(2) {
+  animation: slideToTop 1.5s ease;
+}
+
+.question-container:nth-child(3) {
+  animation: slideToTop 2s ease;
+}
+
+.right-col img {
+  animation: slideToLeft 1.5s ease;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  }
 
